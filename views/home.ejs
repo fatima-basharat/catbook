@@ -21,16 +21,21 @@
               Favorite food: <%= cat.favoriteFood %> <br>
               Fun fact: <%= cat.funFact %>
             </p>
+            <p>
+              Posted by: <%= cat.owner.username %>
+            </p>
           </div>
+          <% if(currentUser && cat.owner._id.equals(currentUser._id)) {%>
           <div class="card-footer">
             <a href="/edit/<%= cat._id %>" class="btn btn-primary">Edit</a>
             <form action="/delete/<%= cat._id %>" method="POST" style="display:inline;">
               <button type="submit" class="btn btn-danger">Delete</button>
             </form>
           </div>
+          <% } %>
         </div>
       </div>
-    <% }); %>
+    <% }) %>
   </div>
 </div>
   </body>
