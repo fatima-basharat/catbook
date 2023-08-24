@@ -1,6 +1,7 @@
 # CatBook
-Welcome to CatBook! A social networking app for cats. This full stack application allows users to share posts about their cats and view posts from other users. This README provides an overview of the project and key features..
+Welcome to CatBook! A social networking app for cats. This full stack application allows users to share posts about their cats and view posts from other users. This README provides an overview of the project and key features.
 
+<img width="100%" alt="catbook" src="https://github.com/fatima-basharat/catbook/assets/117535181/14f780bc-dd2f-4813-bdb8-bc630aa8da81">
 
 **Link to project:** https://catbook-xxi5.onrender.com <br>
 
